@@ -6,9 +6,11 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int current = num / num;
 
-Console.Write("Ваши числа: ");
-while(current <= num)
-{
-    Console.Write(current + " ");
-    current++;
-}
+Console.Write("Итого: ");
+if(num > 0)
+    while(current <= num)
+    {
+        Console.Write(current + " ");
+        current++;
+    }
+else Console.Write("Вы пытаетесь нас обмунуть и ввели отрицательное число!!!");
