@@ -8,11 +8,11 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if(num1 > num2)
 {
-    Console.Write("Максимальное из этих чисел: " + num1);
-    Console.Write("Минимальное из этих чисел: " + num2);
+    Console.WriteLine("Максимальное из этих чисел: " + num1);
+    Console.WriteLine("Минимальное из этих чисел: " + num2);
 }
 else
 {
-    Console.Write("Максимальное из этих чисел: " + num1);
-    Console.Write("Минимальное из этих чисел: " + num2);
+    Console.WriteLine("Максимальное из этих чисел: " + num1);
+    Console.WriteLine("Минимальное из этих чисел: " + num2);
 }
