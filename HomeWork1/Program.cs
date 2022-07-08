@@ -6,5 +6,13 @@ int num1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
-if(num1 > num2) Console.Write("Максимальное из этих чисел: " + num1);
-else Console.Write("Максимальное из этих чисел: " + num2);
+if(num1 > num2)
+{
+    Console.Write("Максимальное из этих чисел: " + num1);
+    Console.Write("Минимальное из этих чисел: " + num2);
+}
+else
+{
+    Console.Write("Максимальное из этих чисел: " + num1);
+    Console.Write("Минимальное из этих чисел: " + num2);
+}
