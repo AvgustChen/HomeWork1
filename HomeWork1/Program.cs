@@ -13,6 +13,6 @@ if(num1 > num2)
 }
 else
 {
-    Console.WriteLine("Максимальное из этих чисел: " + num1);
-    Console.WriteLine("Минимальное из этих чисел: " + num2);
+    Console.WriteLine("Максимальное из этих чисел: " + num2);
+    Console.WriteLine("Минимальное из этих чисел: " + num1);
 }
